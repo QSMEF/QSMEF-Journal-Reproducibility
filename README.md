@@ -81,5 +81,16 @@ For further details, consult [implementacion/README.md](implementacion/README.md
 
 ## Publication and citation
 
-This repository supports the QSMEF journal manuscript. The bibliographic reference for the final article and the **version-specific Zenodo DOI** will be added once the corresponding publication and software archive are finalized.
+This repository provides the computational implementation, experimental verification artifacts, regression tests, and systematic literature mapping materials supporting the QSMEF journal manuscript.
 
+The reproducibility materials are archived in Zenodo as version **v1.0**, with the following DOI:
+
+**https://doi.org/10.5281/zenodo.23461129**
+
+**Recommended citation:**
+
+Pezzini, M. C. (2026). *QSMEF Journal Reproducibility — v1.0* (Version v1.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23461129
+
+This DOI identifies the specific archived release of the repository. Future versions may receive separate version-specific DOIs.
+
+The bibliographic reference for the associated journal article will be added once the article is published.
