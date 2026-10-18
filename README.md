@@ -20,30 +20,33 @@ The framework distinguishes four validation outcomes:
 ## Repository contents
 
 ```text
-QSMEF-Revista-2026/
+QSMEF-Journal-Reproducibility/
 ├── README.md                         # Repository overview (this file)
-├── QSMEF-JOURNAL/
+├── implementacion/
 │   ├── README.md                     # Computational documentation and instructions
-│   └── resultados/
-│       ├── QSMEF_Implementation.py
-│       ├── test_qsmef_regression.py
+│   ├── QSMEF_Implementation.py
+│   ├── test_qsmef_regression.py
+│   ├── requirements_qsmef.txt
+│   ├── ejecutar_pruebas.bat
+│   ├── README_pruebas_QSMEF.txt
+│   └── resultados/                   # Recorded experimental and verification outputs
 │       ├── qsmef_checks.json
-│       ├── requirements_qsmef.txt
-│       ├── ejecutar_pruebas.bat
-│       ├── README_pruebas_QSMEF.txt
 │       ├── qsmef_regression_run.log
 │       ├── experiment_summary.csv
 │       └── verification_results.txt
-└── revisión_literatura/
+└── revision_literatura/
+    ├── README.md                     # Literature-mapping documentation
     └── datos/
         ├── retrieved_studies.csv
         ├── excluded_studies.csv
         └── selected_studies_analysis.xlsm
 ```
 
-The `QSMEF-JOURNAL/` directory contains the computational materials associated with the manuscript. The `revisión_literatura/` directory contains supporting bibliographic datasets and analysis files; it is separate from the computational regression suite.
+The structure above describes the intended organization; the actual files available depend on what has been uploaded to the repository.
 
-For methodological details, requirements, experimental interpretation, and test instructions, see the **[computational README](QSMEF-JOURNAL/README.md)**.
+The `implementacion/` directory contains the computational materials associated with the manuscript. The `revision_literatura/` directory contains supporting bibliographic datasets and analysis files; it is separate from the computational regression suite.
+
+For methodological details, requirements, experimental interpretation, and test instructions, see the **[computational README](implementacion/README.md)**. For the literature-mapping materials, see the **[literature review README](revision_literatura/README.md)**.
 
 ## Included computational case studies
 
@@ -57,7 +60,7 @@ The SKW experiments also include two distinct modified-oracle comparisons: a **f
 
 ## Quick start
 
-Install Python and open a terminal in `QSMEF-JOURNAL/resultados/`:
+Install Python and open a terminal in `implementacion/`:
 
 ```bash
 python -m pip install -r requirements_qsmef.txt
@@ -78,7 +81,7 @@ The JSON reference values and recorded logs support computational traceability. 
 
 Attributions are specific to the circuit configuration, initial state, observable, functional decomposition, neutralization rule, and declared applicability criteria. Executable semantic contracts test formalized conditions chosen by the researcher; they do not establish that every possible interpretation of functional comparability has been verified. Numerical results may vary slightly with software versions and numerical optimization settings.
 
-For further details, consult [QSMEF-JOURNAL/README.md](QSMEF-JOURNAL/README.md).
+For further details, consult [implementacion/README.md](implementacion/README.md).
 
 ## Publication and citation
 
