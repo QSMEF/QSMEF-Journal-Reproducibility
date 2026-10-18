@@ -23,26 +23,22 @@ The framework distinguishes four validation outcomes:
 QSMEF-Journal-Reproducibility/
 ├── README.md                         # Repository overview (this file)
 ├── implementacion/
-│   ├── README.md                     # Computational documentation and instructions
+│   ├── README.md                     # Computational documentation
 │   ├── QSMEF_Implementation.py
 │   ├── test_qsmef_regression.py
 │   ├── requirements_qsmef.txt
 │   ├── ejecutar_pruebas.bat
 │   ├── README_pruebas_QSMEF.txt
-│   └── resultados/                   # Recorded experimental and verification outputs
-│       ├── qsmef_checks.json
-│       ├── qsmef_regression_run.log
-│       ├── experiment_summary.csv
-│       └── verification_results.txt
+│   ├── qsmef_checks.json
+│   └── qsmef_regression_run.log
 └── revision_literatura/
     ├── README.md                     # Literature-mapping documentation
-    └── datos/
-        ├── retrieved_studies.csv
-        ├── excluded_studies.csv
-        └── selected_studies_analysis.xlsm
+    ├── retrieved_studies.csv
+    ├── excluded_studies.csv
+    └── selected_studies_analysis.xlsm
 ```
 
-The structure above describes the intended organization; the actual files available depend on what has been uploaded to the repository.
+The directory tree reflects the files shown in the repository as of this update. The computational outputs currently included are `qsmef_checks.json` and `qsmef_regression_run.log`; no additional experimental summary or verification-result files are claimed.
 
 The `implementacion/` directory contains the computational materials associated with the manuscript. The `revision_literatura/` directory contains supporting bibliographic datasets and analysis files; it is separate from the computational regression suite.
 
