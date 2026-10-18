@@ -83,4 +83,3 @@ For further details, consult [implementacion/README.md](implementacion/README.md
 
 This repository supports the QSMEF journal manuscript. The bibliographic reference for the final article and the **version-specific Zenodo DOI** will be added once the corresponding publication and software archive are finalized.
 
-When citing the software, use the Zenodo DOI for the **specific archived release** used to obtain the reported results. 
