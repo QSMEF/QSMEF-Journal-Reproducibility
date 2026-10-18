@@ -16,7 +16,6 @@ For the research objective and the organization of the complete archive, see the
 | `qsmef_checks.json` | Recorded reference checks used for traceability. |
 | `qsmef_regression_run.log` | Recorded regression-test execution log. |
 
-Other result files, where included in the repository, provide supplementary experimental summaries and verification records.
 
 ## Computational approach
 
