@@ -1,0 +1,14 @@
+test_h2 (test_qsmef_regression.QSMEFRegression.test_h2) ... ok
+test_maxcut (test_qsmef_regression.QSMEFRegression.test_maxcut) ... ok
+test_maxcut_granularity_identifiers (test_qsmef_regression.QSMEFRegression.test_maxcut_granularity_identifiers) ... ok
+test_partitioning (test_qsmef_regression.QSMEFRegression.test_partitioning) ... ok
+test_qpe (test_qsmef_regression.QSMEFRegression.test_qpe) ... ok
+test_qpe_unsupported_configuration_rejected (test_qsmef_regression.QSMEFRegression.test_qpe_unsupported_configuration_rejected) ... ok
+test_skw (test_qsmef_regression.QSMEFRegression.test_skw) ... ok
+test_skw_controlled_fixed_state (test_qsmef_regression.QSMEFRegression.test_skw_controlled_fixed_state) ... ok
+test_skw_modified_full_evolution (test_qsmef_regression.QSMEFRegression.test_skw_modified_full_evolution) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.519s
+
+OK

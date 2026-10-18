@@ -1,0 +1,68 @@
+{
+  "maxcut": {
+    "verdict": "APPLICABLE",
+    "coalitions": 16,
+    "failed_semantic": 0,
+    "failed_functional": 0,
+    "shapley": {
+      "C1": -1.5839080726923827,
+      "B1": -0.41609178167115035,
+      "C2": -0.41609178167114996,
+      "B2": -1.5839080726923833
+    }
+  },
+  "h2": {
+    "verdict": "NOT APPLICABLE UNDER THE DECLARED SCOPE",
+    "coalitions": 32,
+    "failed_semantic": 25,
+    "failed_functional": 25,
+    "shapley": null
+  },
+  "skw": {
+    "verdict": "APPLICABLE",
+    "coalitions": 8,
+    "failed_semantic": 0,
+    "failed_functional": 0,
+    "shapley": {
+      "O": -0.2530552769364649,
+      "G": 0.015528082730684362,
+      "S": 0.015528082730684251
+    }
+  },
+  "qpe": {
+    "verdict": "NOT APPLICABLE UNDER THE DECLARED SCOPE",
+    "coalitions": 128,
+    "failed_semantic": 112,
+    "failed_functional": 0,
+    "shapley": null
+  },
+  "partitioning": {
+    "verdict": "APPLICABLE",
+    "coalitions": 4,
+    "failed_semantic": 0,
+    "failed_functional": 0,
+    "shapley": {
+      "C_fase": -0.5192240351330828,
+      "M_XY": 0.47296213738508475
+    }
+  },
+  "qpe_invalid_rejected": true,
+  "controlled_skw": {
+    "original": {
+      "verdict": "APPLICABLE",
+      "shapley": {
+        "O": -0.2530552769364649,
+        "G": 0.015528082730684362,
+        "S": 0.015528082730684251
+      }
+    },
+    "modified_fixed_state": {
+      "verdict": "APPLICABLE",
+      "shapley": {
+        "O": -0.20089871836725468,
+        "G": 0.015528082730684512,
+        "S": 0.015528082730684178
+      }
+    }
+  }
+}
