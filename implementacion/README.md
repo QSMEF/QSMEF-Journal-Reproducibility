@@ -84,6 +84,3 @@ Semantic contracts can verify formalized properties selected by the researcher, 
 
 Results are configuration-dependent: changing the initial state, circuit parameters, functional blocks, observable, or neutralization rule can change both applicability and attribution. Numerical values may vary slightly with dependency versions, numerical tolerances, and optimization settings. Regression tests assess computational consistency with recorded references rather than independent experimental confirmation.
 
-## Citation
-
-This implementation accompanies the QSMEF journal manuscript. When a version-specific software archive is released, cite the DOI of the **specific archived version** used. The final article citation and archive DOI should be added only after they are confirmed.
